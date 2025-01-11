@@ -33,7 +33,7 @@ jobs:
           output_location: "dist/loadout-chaos/browser" # Built app content directory - optional
           ###### End of Repository/Build Configurations ######
         env:
-          NODE_VERSION: "22.12.0"
+          NODE_VERSION: "20.18"
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
