@@ -1,0 +1,55 @@
+{
+    "weapons": {
+      "primary": [
+        { "id": 1, "name": "Assault Rifle Alpha", "type": "Assault Rifle", "icon": "assault_rifle_alpha.png" },
+        { "id": 2, "name": "Precision Marksman", "type": "Marksman Rifle", "icon": "precision_marksman.png" },
+        { "id": 3, "name": "Silent Sniper", "type": "Sniper Rifle", "icon": "silent_sniper.png" }        
+      ],
+      "secondary": [
+        { "id": 101, "name": "Sidearm Classic", "type": "Pistol", "icon": "sidearm_classic.png" },
+        { "id": 102, "name": "Combat Knife", "type": "Melee", "icon": "combat_knife.png" },
+        { "id": 103, "name": "Special Blaster", "type": "Special", "icon": "special_blaster.png" }        
+      ],
+      "throwable": [
+        { "id": 201, "name": "Standard Grenade", "type": "Standard", "icon": "standard_grenade.png" },
+        { "id": 202, "name": "EMP Grenade", "type": "Special", "icon": "emp_grenade.png" }        
+      ]
+    },
+    "equipment": {
+      "helmets": [
+        { "id": 301, "name": "Standard Helmet", "icon": "standard_helmet.png" },
+        { "id": 302, "name": "Combat Visor", "icon": "combat_visor.png" }        
+      ],
+      "armor": [
+        { "id": 401, "name": "Light Armor", "type": "Light", "icon": "light_armor.png" },
+        { "id": 402, "name": "Heavy Armor", "type": "Heavy", "icon": "heavy_armor.png" }        
+      ],
+      "capes": [
+        { "id": 501, "name": "Hero's Cape", "icon": "heros_cape.png" },
+        { "id": 502, "name": "Stealth Cloak", "icon": "stealth_cloak.png" }        
+      ]
+    },
+    "stratagems": {
+      "offensive": [
+        { "id": 601, "name": "Missile Strike", "icon": "missile_strike.png" },
+        { "id": 602, "name": "Napalm Bomb", "icon": "napalm_bomb.png" }
+      ],
+      "supporting": [
+        { "id": 701, "name": "Ammo Drop", "icon": "ammo_drop.png" },
+        { "id": 702, "name": "Medkit Supply", "icon": "medkit_supply.png" }
+      ],
+      "defensive": [
+        { "id": 801, "name": "Shield Generator", "icon": "shield_generator.png" },
+        { "id": 802, "name": "Landmine Deployment", "icon": "landmine_deployment.png" }
+      ],
+      "mission": [
+        { "id": 901, "name": "Beacon Placement", "icon": "beacon_placement.png" },
+        { "id": 902, "name": "Signal Jammer", "icon": "signal_jammer.png" }
+      ]
+    },
+    "boosters": [
+      { "id": 1001, "name": "Speed Boost", "icon": "speed_boost.png" },
+      { "id": 1002, "name": "Health Regeneration", "icon": "health_regeneration.png" }
+    ]
+  }
+  
