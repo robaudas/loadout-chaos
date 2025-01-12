@@ -1,0 +1,14 @@
+.loadout-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .weapon, .equipment, .stratagems, .booster {
+    margin-bottom: 20px;
+  }
+  
+  img {
+    height: 50px;
+    margin-right: 10px;
+  }
+  

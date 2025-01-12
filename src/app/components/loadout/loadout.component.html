@@ -1,0 +1,48 @@
+<div class="loadout-container" *ngIf="loadout">
+  <h2>Random Loadout</h2>
+
+  <div class="weapon">
+    <h3>Weapons</h3>
+    <p><strong>Primary:</strong> {{ loadout.primaryWeapon.name }}</p>
+    <img
+      [src]="'images/icons/' + loadout.primaryWeapon.icon"
+      alt="Primary Weapon"
+    />
+    <p><strong>Secondary:</strong> {{ loadout.secondaryWeapon.name }}</p>
+    <img
+      [src]="'images/icons/' + loadout.secondaryWeapon.icon"
+      alt="Secondary Weapon"
+    />
+    <p><strong>Throwable:</strong> {{ loadout.throwable.name }}</p>
+    <img [src]="'images/icons/' + loadout.throwable.icon" alt="Throwable" />
+  </div>
+
+  <div class="equipment">
+    <h3>Equipment</h3>
+    <p><strong>Helmet:</strong> {{ loadout.helmet.name }}</p>
+    <img [src]="'images/icons/' + loadout.helmet.icon" alt="Helmet" />
+    <p><strong>Armor:</strong> {{ loadout.armor.name }}</p>
+    <img [src]="'images/icons/' + loadout.armor.icon" alt="Armor" />
+    <p><strong>Cape:</strong> {{ loadout.cape.name }}</p>
+    <img [src]="'images/icons/' + loadout.cape.icon" alt="Cape" />
+  </div>
+
+  <div class="stratagems">
+    <h3>Stratagems</h3>
+    <ul>
+      <li *ngFor="let stratagem of loadout.stratagems">
+        <p>{{ stratagem.name }}</p>
+        <img
+          [src]="'images/icons/' + stratagem.icon"
+          alt="{{ stratagem.name }}"
+        />
+      </li>
+    </ul>
+  </div>
+
+  <div class="booster">
+    <h3>Booster</h3>
+    <p>{{ loadout.booster.name }}</p>
+    <img [src]="'images/icons/' + loadout.booster.icon" alt="Booster" />
+  </div>
+</div>
